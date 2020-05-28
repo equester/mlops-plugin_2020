@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/mlops_plugin/notebooks/mlruns/0/c250a2b1ca1d43f7979c9dd11c746a7b/artifacts
+end_time: 1590516181635
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: c250a2b1ca1d43f7979c9dd11c746a7b
+run_uuid: c250a2b1ca1d43f7979c9dd11c746a7b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1590516181575
+status: 4
+tags: []
+user_id: lnigam

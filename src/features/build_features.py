@@ -3,7 +3,7 @@ from sklearn.model_selection import train_test_split
 import mlflow
 
 def prep_process(data):
-    mlflow.set_tracking_uri("http://kubernetes.docker.internal:5000")
+    mlflow.set_tracking_uri("http://kubernetes.docker.internal:5000/")
     with mlflow.start_run() as mlrun:
         data_tmp_dir = "C://mlops_plugin//src//data_temp"
         # Drop Ticket & Cabin

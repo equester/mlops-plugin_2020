@@ -1,9 +1,16 @@
 from sklearn import model_selection
 from sklearn.metrics import confusion_matrix, classification_report, make_scorer
+import pandas as pd
+from sklearn import metrics
 
 class BaseModellingHelper:
 
     def __init__(self, std_param, base_model):
+        from sklearn import model_selection
+        from sklearn.metrics import confusion_matrix, classification_report, make_scorer
+        import pandas as pd
+        from sklearn import metrics
+
         # if not set(grid_models.keys()).issubset(set(grid_params.keys()))  \
         #       or not set(popt_models.keys()).issubset(set(popt_params.keys())) \
         #       or not set(automl_model.keys()).issubset(set(automl_params.keys())) \

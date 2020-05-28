@@ -52,4 +52,4 @@ def prep_process(data):
         y = data.Survived
         x_train,x_test,y_train,y_test = train_test_split(X,y,test_size=0.2)
 
-    return x_train,x_test,y_train,y_test
+    return x_train,x_test,y_train,y_test, X, y

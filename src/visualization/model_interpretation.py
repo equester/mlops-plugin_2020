@@ -9,7 +9,7 @@ import xgboost
 
 st.header("Model Interpretation")
 models_names = ["model-ExtraTreesClassifier0.517597",
- "model-XGBClassifier0.239277",
+ "model-XGBClassifier0.211045",
  "model-BaggingClassifier0.413186",
  "model-DecisionTreeClassifier0.540355",
  "model-RandomForestClassifier0.870131" ,

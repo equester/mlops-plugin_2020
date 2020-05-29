@@ -1,0 +1,4 @@
+#  {'(-0.001, 7.91]': 0, '(31.0, 512.329]': 3, '(7.91, 14.454]': 1, '(14.454, 31.0]':2 }  for fare band
+# data['FamilySize'] = data['SibSp'] + data['Parch'] + 1  # gives the number of people per ticket
+        data['IsAlone'] = 0
+#

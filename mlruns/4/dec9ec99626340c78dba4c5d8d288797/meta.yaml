@@ -1,0 +1,15 @@
+artifact_uri: ./mlruns/4/dec9ec99626340c78dba4c5d8d288797/artifacts
+end_time: 1590738038690
+entry_point_name: ''
+experiment_id: '4'
+lifecycle_stage: active
+name: ''
+run_id: dec9ec99626340c78dba4c5d8d288797
+run_uuid: dec9ec99626340c78dba4c5d8d288797
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1590738037832
+status: 3
+tags: []
+user_id: lnigam

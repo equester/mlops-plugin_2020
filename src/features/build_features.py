@@ -4,6 +4,7 @@ import mlflow
 
 def prep_process(data):
     mlflow.set_tracking_uri("http://kubernetes.docker.internal:5000/")
+    # this could be a remote URL
     with mlflow.start_run() as mlrun:
         data_tmp_dir = "C://mlops_plugin//src//data_temp"
         # Drop Ticket & Cabin
@@ -16,6 +17,7 @@ def prep_process(data):
         data['Title'] = data['Title'].replace('Mlle', 'Miss')
         data['Title'] = data['Title'].replace('Ms', 'Miss')
         data['Title'] = data['Title'].replace('Mme', 'Mrs')
+        # log_artificate
 
         title_mapping = {"Mr": 1, "Miss": 2, "Mrs": 3, "Master": 4, "Rare": 5}
 
@@ -47,6 +49,8 @@ def prep_process(data):
         data['AgeBand'] = data['AgeBand'].map( {'(0.419, 22.0]': 0, '(35.0, 80.0]': 3, '(22.0, 28.0]': 1, '(28.0, 35.0]':2 } ).astype(int)
         data = data.drop(['Fare','Age'],axis=1)
         data.to_csv(data_tmp_dir+"//temp.csv")
+        mlflow.log_param("Size of Data", data.shape)
+        mlflow.log_param("Number of Columns", len(data.columns))
         mlflow.log_artifacts(data_tmp_dir, "data writing")
         X = data.loc[:, data.columns != 'Survived']
         y = data.Survived

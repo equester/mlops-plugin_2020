@@ -8,14 +8,10 @@ import uvicorn
 from fastapi import FastAPI
 
 # Modeling
-
-
 app = FastAPI()
 
 # Initialize files
 clf = pickle.load(open('C://mlops_plugin//_deploy//model//model.pkl', 'rb'))
-
-
 
 class Data(BaseModel):
     Pclass: int

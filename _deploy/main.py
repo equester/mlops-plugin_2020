@@ -2,6 +2,7 @@
 import pickle
 import numpy as np
 import pandas as pd
+from pydantic import BaseModel
 # Server
 import uvicorn
 from fastapi import FastAPI
@@ -12,7 +13,7 @@ from fastapi import FastAPI
 app = FastAPI()
 
 # Initialize files
-clf = pickle.load(open('/home/project/app/model/model.pkl', 'rb'))
+clf = pickle.load(open('C://mlops_plugin//_deploy//model//model.pkl', 'rb'))
 
 
 

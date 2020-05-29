@@ -15,3 +15,13 @@ Steps to do:
 - pip install -r requirements.txt
 - run "jupyter notebook"
 - go to /notebooks/ and start titanic_e2e_handon.ipynb file
+
+- Note* Coming Soon
+ - Auto Deployment with Airflow
+ - MLFlow Remote Server
+ - Model Drifting Dashboard
+ - Model Fairness Dashboard
+ - Model Causality Dashboard
+ - Model Multi Algorithm Interpretation
+
+ If you want to contribute - Send me an email. 

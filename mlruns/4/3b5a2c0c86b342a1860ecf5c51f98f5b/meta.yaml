@@ -1,5 +1,5 @@
 artifact_uri: ./mlruns/4/3b5a2c0c86b342a1860ecf5c51f98f5b/artifacts
-end_time: null
+end_time: 1590704102482
 entry_point_name: ''
 experiment_id: '4'
 lifecycle_stage: active
@@ -10,6 +10,6 @@ source_name: ''
 source_type: 4
 source_version: ''
 start_time: 1590688230847
-status: 1
+status: 3
 tags: []
 user_id: lnigam

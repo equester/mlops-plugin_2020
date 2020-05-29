@@ -17,7 +17,7 @@ Steps to do:
 - go to /notebooks/ and start titanic_e2e_handon.ipynb file
 
 
-======================================================================================
+==============================================================================
 - Note* Coming Soon
    - Auto Deployment with Airflow
    - MLFlow Remote Server
